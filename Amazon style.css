@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height:60px;
+    background-color:black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 60px;
+    width: 100px;
+}
+.logo{
+    background-image: url(Amazon_logo.png);
+    background-size:cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+/**BOX2**/
+.description{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.country{
+    color: white;
+    font-size: 1rem;
+    margin-left: 5px;
+}
+.add-icon{
+    display: flex;
+    margin-left: 5px;
+}
+/**BOX3**/
+.nav-search{
+    display: flex;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    justify-content:space-evenly ;
+    border-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #e6e6e6;
+    width: 50px;
+    text-align: center;
+    font-size: 0.8rem;
+    font-family: Arial;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    color: #555;
+}
+.search-input{
+    width:100%;
+    font-size:0.9rem;
+    border: none;
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    width: 55px;
+    background-color:#febb68;
+    align-items: center;
+    font-size: 1.2rem;
+    color:black;
+}
+/**Box 4**/
+span{
+    font-size: 12px;
+}
+.nav-second{
+    font-size: 14px;
+    font-weight:bolder;
+}
+/**box 5**/
+.nav-cart i{
+    font-size: 35px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 750;
+}
+/**panel**/
+.panel{
+    height: 40px;
+    color: white;
+    background-color: #1b2530;
+    display: flex;
+    justify-content: space-evenly;
+}
+.panel-options{
+    width: 922px;
+    font-size: 0.9rem;
+    text-align: start;
+    margin-top: 5px;
+}
+.panel-options p{
+    margin-left: 15px;
+    display: inline;
+    margin-top: 5px;
+}
+.panel-deals{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 5px;
+}
+/**hero image**/
+.hero-section{
+    background-image: url(hero_image.jpg);
+    background-size:cover;
+    height: 280px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+}
+.hero-msg{
+    background-color: white;
+    height: 40px;
+    width: 93%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 25px;
+}
+.hero-msg a{
+    color: #2162a1;
+    
+}
+/**shop section**/
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e52a9b;
+    flex-wrap:wrap;
+    background-size:cover ;
+}
+.box{
+    height: 400px;
+    background-color: white;
+    border: 0px solid black;
+    padding: 20px 0px 15px;
+    margin-bottom: 30px;
+}
+.box-image{
+    height: 300px;
+    width: 250px;
+    background-size:cover;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.box-content{
+    margin-left:1rem ;
+    margin-right: 1rem;
+}
+.box-content p{
+    color: #2162a1;
+}
+.footer-part1{
+    height: 50px;
+    color: white;
+    background-color: #232f3e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.footer-part2{
+    height: 300px;
+    background-color: #010101;
+    color: #dddddd;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    font-size: 0.85rem;
+    margin-top: 10px;
+    display: block;
+}
+h4{
+    color:white;
+    margin-top: 50px;
+    font-weight: 800;
+}
+.footer-part3{
+    background-color:#010101;
+    border-top: 0.1px solid #8d8d8d;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url(Amazon_logo.png);
+    background-size: cover;
+    width: 100px;
+    height: 50px;
+}
+.footer-part4{
+    background-color: #010101;
+    color: white;
+    /**display: flex;
+    justify-content: center;
+    align-items: center;**/
+    font-size: 0.7rem;
+    text-align: center;
+    height: 80px;
+}
+.pages{
+    padding-top: 25px;
+}
+.copyright{
+    padding-top: 5px;
+}
